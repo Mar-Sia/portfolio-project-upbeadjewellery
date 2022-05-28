@@ -145,8 +145,14 @@
 }
 
 @media (max-width: 880px) {
-  .paragraphs {
+  .paragraphs,
+  .about-title,
+  .about-para {
     text-align: center;
+  }
+
+  .about-title {
+    padding-top: 30px;
   }
 
   .description {
